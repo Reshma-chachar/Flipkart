@@ -7,12 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class Tempt
+public class Tempt 
 {
 
 	public static void main(String[] args)
 	{
-		System.setProperty("webdriver.chrome.driver", "G:\\Automation Support\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver", "G:\\Automation Support\\chromedriver.exe");
 		  ChromeDriver driver=new ChromeDriver();
 		  
 		  driver.manage().window().maximize();
